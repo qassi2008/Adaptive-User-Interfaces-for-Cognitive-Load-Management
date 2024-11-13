@@ -32,7 +32,7 @@ body.high-load {
 }
 
 .navbar h1 {
-    margin: 0;
+    margin: 10px;
     font-size: 1.5rem;
     font-weight: 600;
 }
