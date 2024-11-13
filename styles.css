@@ -30,9 +30,9 @@ body.high-load {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     font-size: 1.2rem;
 }
-.progress{
-    margin: 0;
-    padding: 0;
+.progress, .preferences{
+    margin-left: 10px;
+    padding-left: 10px;
 }
 .navbar h1 {
     margin: 0;
@@ -63,23 +63,23 @@ body.high-load {
 }
 
 #dashboard {
-    padding: 20px;
+    padding: 5px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
-    max-width: 900px;
+    max-width: 1200px;
     margin: 20px auto;
     transition: all 0.5s ease;
 }
 
 .section {
     background-color: white;
-    padding: 20px;
+    padding: 10px;
     border-radius: 12px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.05);
     transition: all 0.3s ease;
     position: relative;
-    min-height: 250px;
+    min-height: 150px;
 }
 
 .section:hover {
